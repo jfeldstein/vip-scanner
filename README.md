@@ -15,4 +15,4 @@ This pings Rapportive for each email owners's name, company and title, as well a
 
 `coffee followers.coffee`
 
-Adds the number of followers each user has on each network, so you can spot whales. 
+The file `socialuserdata.csv` includes the final data, with numbers of followers each user has on each network, so you can spot whales. 
