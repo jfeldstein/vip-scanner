@@ -1,0 +1,14 @@
+{
+  "name": "social-scraper",
+  "version": "0.0.0",
+  "dependencies": {
+    "twit": "*",
+    "csv": "*",
+    "promised-io": "*",
+    "request": "*",
+    "function-rate-limit": "*"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
