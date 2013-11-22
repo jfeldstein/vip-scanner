@@ -1,10 +1,18 @@
-Supa Stalk!
-===========
+Spot VIPs in your userbase and beta list. 
+=========================================
 
-Use these scripts to identify VIPs in your user base or beta list. 
+## 1. Get a list of emails
 
-`cat csvofemails.csv | python3 rapportive.py -o userdata.csv` to lookup names, companies, job titles, twitters and angelcos.
+Save it to a file, eg `emails.csv`.
 
-`coffee followers.coffee` to look up twitter and angellist follower counts.
+## 2. Pull reportive data 
 
-People with big numbers are often important. 
+`cat emails.csv | python3 rapportive.py -o userdata.csv`
+
+This pings Rapportive for each email owners's name, company and title, as well as social profiles. (Currently AngelList, LinkedIn and Twitter)
+
+## 3. Pull follower counts to spot whales
+
+`coffee followers.coffee`
+
+Adds the number of followers each user has on each network, so you can spot whales. 
