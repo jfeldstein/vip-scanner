@@ -16,3 +16,7 @@ This pings Rapportive for each email owners's name, company and title, as well a
 `coffee followers.coffee`
 
 The file `socialuserdata.csv` includes the final data, with numbers of followers each user has on each network, so you can spot whales. 
+
+
+
+Thanks to [jordan-wright/rapportive](https://github.com/jordan-wright/rapportive).
